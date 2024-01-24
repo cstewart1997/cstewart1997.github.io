@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <h1>Calorie and Macro Calculator<h1>
+      <div id="info-form">
+    <form id="info">
+      <label for="age">Age:</label>
+      <input type="number" min="10" id="age" placeholder="enter your age" required</input>
+     <label for="height">Height (cm):</label>
+      <input type="number" min="10" id="height" placeholder="enter your height in cm" required</input>
+      <label for="weight">Weight (kg):</label>
+      <input type="number" min="10" id="weight" placeholder="enter your weight in kg" required</input></form>
+      </div>
+    <div id="activity-form">
+    <form id="activity">
+      <label for="activity-level">Activity level:</label>
+      <select required id="activity-level">
+      <option value="nva">Not very active</option>
+      <option value="ma">Moderately active</option>
+      <option value="va">Very active</option> required</select>
+      <label for="goal">Goals:</label>
+     <select required id="goal">
+      <option value="lose">Lose weight</option>
+      <option value="gain">Gain weight</option>
+      <option value="maintain">Maintain weight</option> </select>
+      <label for="biology">Biology:</label>
+     <select required id="Biology">
+      <option value="male">male</option>
+      <option value="female">female</option> </select>
+    </form>
